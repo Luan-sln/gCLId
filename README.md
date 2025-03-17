@@ -33,7 +33,7 @@ dotnet publish -c Release -r win-x64 --self-contained false
 ```
 
 4. Add the published directory to your system PATH:
-   - The published files will be in `bin/Release/net8.0/win-x64/publish/`
+   - The published files will be in `bin/Release/net8.0/win-x64/`
    - Copy this path and add it to your system's PATH environment variable
    - Or create a symbolic link to the executable in a directory that's already in your PATH
 
